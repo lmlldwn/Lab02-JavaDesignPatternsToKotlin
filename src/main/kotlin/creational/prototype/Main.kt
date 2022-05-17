@@ -20,5 +20,5 @@ fun main(){
     println(org) //view objectID
 
     val company = organizationCache.get("SeaOil")?.clone()
-    println(company) //view objectID
+    println(company) //view objectID of clone
 }
