@@ -6,7 +6,7 @@ class SingletonLazy private constructor() {
     companion object {
         var instance: SingletonLazy? = null
             get() {
-                if (field != null) {
+                if (field == null) {
                     field = SingletonLazy()
                 }
                 return field

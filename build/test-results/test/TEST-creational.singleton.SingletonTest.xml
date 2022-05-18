@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="creational.singleton.SingletonTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-05-18T09:08:39" hostname="gfi05278" time="0.025">
+  <properties/>
+  <testcase name="testSingletonLazyInstanceId()" classname="creational.singleton.SingletonTest" time="0.017"/>
+  <testcase name="testSingletonEarlyInstanceId()" classname="creational.singleton.SingletonTest" time="0.004"/>
+  <testcase name="testSingletonLazyAttributeId()" classname="creational.singleton.SingletonTest" time="0.001"/>
+  <testcase name="testSingletonEarlyAttributeId()" classname="creational.singleton.SingletonTest" time="0.001"/>
+  <system-out><![CDATA[Instance 1 IDSample for Instance 1
+Instance 2 IDSample for Instance 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

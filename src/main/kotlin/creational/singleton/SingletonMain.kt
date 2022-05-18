@@ -12,11 +12,11 @@ package Singleton
         val instanceOne = SingletonLazy.instance
         val instanceTwo = SingletonLazy.instance
 
-        instanceOne?.ID = ("I am instance ONE!");
+        instanceOne?.ID = ("I am instance ONE!")
         println("Instance one ID " + instanceOne?.ID)
         println("Instance two ID " + instanceTwo?.ID)
 
-        instanceTwo?.ID = ("I am instance TWO!");
+        instanceTwo?.ID = ("I am instance TWO!")
         println("Instance one ID " + instanceOne?.ID)
         println("Instance two ID " + instanceTwo?.ID)
 
