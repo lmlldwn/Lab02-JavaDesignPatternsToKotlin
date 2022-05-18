@@ -9,12 +9,17 @@ class Shop {
         inventory.addItem();
     }
 
-    fun pay() {
-        billing.printReceipt(inventory.items);
+    fun checkItem() : Int {
+        return inventory.items;
     }
 
-    fun deliver(address:String) {
-        delivery.deliver(address);
+    fun pay() : Int {
+        return billing.printReceipt(inventory.items)
+    }
+
+    fun deliver(address:String) : String {
+        delivery.address = address
+        return delivery.deliver()
     }
 
 

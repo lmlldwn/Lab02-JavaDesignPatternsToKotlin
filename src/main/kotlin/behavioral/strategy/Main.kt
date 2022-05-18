@@ -9,5 +9,4 @@ fun main() {
 
     var waterProcess3 : WaterProcessing = BoilWater();
     println("Setting temperature to: ${waterProcess3.getTemperature()}" );
-
 }
