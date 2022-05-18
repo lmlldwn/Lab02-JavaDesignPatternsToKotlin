@@ -1,7 +1,6 @@
 package Template
 
-object Main {
-    @JvmStatic
+
     fun main(args: Array<String>) {
         var game: Game = Cricket()
         game.play()
@@ -9,4 +8,4 @@ object Main {
         game = Football()
         game.play()
     }
-}
+
