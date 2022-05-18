@@ -48,9 +48,4 @@ internal class ShopTest {
         assertEquals(expected, shop.pay())
     }
 
-
-
-
-
-
 }

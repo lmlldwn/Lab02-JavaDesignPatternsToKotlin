@@ -1,6 +1,6 @@
 package creational.prototype
 
-abstract class Organization : Cloneable {
+open class Organization : Cloneable {
     var id = -1
     var name = ""
     var address = ""

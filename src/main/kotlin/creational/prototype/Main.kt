@@ -19,6 +19,6 @@ fun main(){
     organizationCache.put(org.name, org)
     println(org) //view objectID
 
-    val company = organizationCache.get("SeaOil")?.clone()
+    val company : Organization = organizationCache.get("SeaOil")?.clone() as Company
     println(company) //view objectID of clone
 }
